@@ -63,7 +63,7 @@ h5py==2.10.0
 html5lib==1.0.1
 httmock==1.3.0
 http-request-randomizer==1.2.3
-httplib2==0.17.2
+httplib2==0.18.0
 hyperlink==19.0.0
 idna==2.8
 imageio==2.8.0
