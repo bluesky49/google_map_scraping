@@ -94,7 +94,7 @@ kiwisolver==1.1.0
 label-studio==0.5.1
 label-studio-converter==0.0.12
 lib==3.0.0
-lxml==4.5.0
+lxml==4.6.3
 Mako==1.1.2
 Markdown==3.2.1
 MarkupSafe==1.1.1
