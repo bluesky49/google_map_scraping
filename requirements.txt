@@ -214,7 +214,7 @@ tornado==6.0.4
 tqdm==4.43.0
 traitlets==4.3.3
 Twisted==19.10.0
-urllib3==1.25.7
+urllib3==1.25.8
 virtualenv==20.0.10
 virtualenv-clone==0.5.3
 w3lib==1.21.0
