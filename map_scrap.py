@@ -2,9 +2,12 @@ from serpwow.google_search_results import GoogleSearchResults
 import json
 import mysql.connector
 import csv
+import os
+
+SERPWOW_API_KEY = os.environ.get("SERPWOW_API_KEY")
 
 # create the serpwow object, passing in our API key
-serpwow = GoogleSearchResults("83173830806343AAA69BB41313C11844")
+serpwow = GoogleSearchResults(SERPWOW_API_KEY)
 
 # set up a dict for the search parameters
 categories = ['Cafe', 'Grocery Store','Bank','Liquor Store','Gas Station','Pharmacy','Restaurant','Hospital','Retail Store']

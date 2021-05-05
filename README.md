@@ -5,6 +5,8 @@
 3. Please change parameter of "GoogleSearchResults" method in 6th line of "map_scrap.py" to api_key.
 4. Please type the following command
 
-    first.   pip freeze > requirements.txt 
-    second.  pip install -r requirements.txt
+    first.  pip install -r requirements.txt
+    
+    second. export SERPWOW_API_KEY=<your_api_key>
+    
     third.   python map_scrap.py
